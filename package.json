@@ -1,0 +1,27 @@
+{
+  "name": "mongoose-blog",
+  "version": "1.0.0",
+  "description": "Mongoose blog group project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisdelae/mongoose-blog-group-project.git"
+  },
+  "author": "Caitlin, Josh, Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisdelae/mongoose-blog-group-project/issues"
+  },
+  "homepage": "https://github.com/luisdelae/mongoose-blog-group-project#readme",
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "express": "^4.13.4",
+    "mongoose": "^4.4.5"
+  }
+}
