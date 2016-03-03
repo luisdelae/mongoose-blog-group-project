@@ -1,7 +1,16 @@
-<form>
-    <label for="name">Name: </label>
-    <input type="text" ng-model="name" id="name" />
-    <label for="location">Location: </label>
-    <input type="text" ng-model="location" id="location" />
-    <button class="btn btn-info" ng-click="addPerson()">Add Person</button>
+<form class="col-md-12">
+    <div class="row">
+      <label for="title">Blog Title: </label>
+      <input type="text" ng-model="title" id="title" />
+      <label for="Date">Date: </label>
+      <input type="date" ng-model="date" id="date" />
+      <label for="Author">Author: </label>
+      <input type="text" ng-model="author" id="author" />
+    </div>
+    <div class="row">
+      <label for="Entry">Entry: </label></br>
+      <textarea rows="4" cols="100" ng-model="entry" id="entry"></textarea>
+    </div>
+
+    <button class="btn btn-info" ng-click="addPost()">Blog it!!</button>
 </form>

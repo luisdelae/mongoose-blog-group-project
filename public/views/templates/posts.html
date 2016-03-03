@@ -1,0 +1,10 @@
+<div class="row">
+  <div class="col-md-6 col-md-offset-3 text-center">
+    <h2>All Blog Posts</h2>
+  </div>
+</div>
+<div ng-repeat="post in posts" class="row">
+  <div class="col-md-6">
+    <p class="blogPost" ng-click="selectPost(post._id)">{{post.postTitle}} by {{post.postAuthor}} on {{post.postDate}}</p>
+  </div>
+</div>

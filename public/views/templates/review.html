@@ -1,0 +1,20 @@
+<form class="col-md-12">
+    <div class="row col-md-12">
+      <label for="title">Blog Title: </label>
+      <input type="text" ng-model="title" id="title" />
+      <label for="Date">Date: </label>
+      <input type="date" ng-model="date" id="date" />
+      <label for="Author">Author: </label>
+      <input type="text" ng-model="author" id="author" />
+    </div>
+    <div class="row col-md-12">
+      <label for="Entry">Entry: </label></br>
+      <textarea rows="4" cols="100" ng-model="entry" id="entry"></textarea>
+    </div>
+    <div class="row col-md-12">
+      <label for="comments">Reviewer Comments: </label></br>
+      <textarea rows="4" cols="100" ng-model="comments" id="comments"></textarea>
+    </div>
+    <button class="btn btn-info" ng-click="editPost()">Save Changes</button>
+    <button class="btn btn-info" ng-click="deletePost()">Delete Post</button>
+</form>
